@@ -1,0 +1,27 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de lenguaje",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+      },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinedgm/platzom.git"
+  },
+  "keywords": [
+    "fundamentos",
+    "de",
+    "js"
+  ],
+  "author": "Kevin Eduardo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
